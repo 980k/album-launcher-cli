@@ -28,4 +28,5 @@ jobs:
 
     - name: Run tests with unittest
       run: |
-        python -m unittest discover -v --maxfail=1 tests/  # Run tests
+        python -m unittest discover -s tests -v -f # Run tests
+
